@@ -1,0 +1,311 @@
+/* CSS Reseting */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.center2::before{
+    content: '';
+    background: url(./bgnew.jpg);
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    min-width: 1400px;
+    max-width: 1800px;
+    height: 1100px;
+    overflow: hidden;
+    z-index: -2;
+    opacity: 0.91;
+}
+
+.logo::before{
+    content: '';
+    background-color: rgba(0, 0, 0, 0.781);
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 1400px;
+    max-width: 1600px;
+    height: 1100px;
+    overflow: hidden;
+    z-index: -1;
+    opacity: 0.81;
+}
+
+
+/* Designing */
+.logo img{
+    width: 150px;
+    margin: 20px 0px 20px 150px;
+}
+
+
+.signIn{
+    position: relative;
+    top: -20px;
+    font-size: 2.3rem;
+    text-align: left;
+    color: white;
+    font-weight: 500;
+}
+
+/* Animation for the Email */
+.makingClassAnimation{
+    position: relative;
+    top: 25px;
+    left: 18px;
+    height: 0;
+    color: #ffffffb2;
+}
+.makingClassAnimationforPassword{
+    position: relative;
+    top: 25px;
+    left: 18px;
+    height: 0;
+    color: #ffffffb2;
+}
+
+.emailRequired{
+    display: flex;
+    align-items: center;
+    color: rgb(187, 4, 4);
+    padding-left: 5px;
+    display: none;
+    font-size: 14px;
+}
+.passwordRequired{
+    display: flex;
+    align-items: center;
+    color: rgb(187, 4, 4);
+    padding-left: 5px;
+    display: none;
+    font-size: 14px;
+}
+.passwordRequired img{
+    width: 20px;
+    padding-right: 5px;
+}
+.emailRequired img{
+    width: 20px;
+    padding-right: 5px;
+}
+.center2{
+    display: flex;
+    flex-direction: column;
+    align-items: left;  
+    justify-content: center;
+    text-align: left;
+    margin: 15px auto;
+    padding: 65px;
+    padding-bottom: 150px;
+    width: fit-content;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.699);
+    z-index: 3;
+    border-radius: 4px;
+}
+
+.center2 h1{
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+}
+
+.center2 h6{
+    font-size: 1.2rem;
+    padding: 12px 0px;
+    font-weight: 400;
+    color: white;
+}
+
+.center2 button{
+    width: 340px;
+    height: 50px;
+    margin-top: 12px;
+    font-size: 1.12rem;
+    border-radius: 4px;
+    background-color: #f6121d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.center2 button:hover{
+    background-color: #b6030c;
+}
+
+
+#inputMail , #inputPasswordinLogin{
+    position: relative;
+    width: 320px;
+    height: 50px;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 1rem;
+    margin: 5px 0px 5px 0px;
+    border-radius: 4px;
+    color: white;
+    border: 1px solid rgb(49, 49, 49);
+    background-color: #ffffff17;
+}
+
+
+
+#forgotPassword{
+    color: white;
+    margin: auto;
+    padding-top: 19px;
+}
+#forgotPassword:hover{
+    color: rgb(197, 197, 197);
+    text-decoration: underline;
+}
+
+#rememberMe{
+    width: 25px;
+    cursor: pointer;
+}
+
+.rememberMe{
+    color: white;
+    font-size: 1.1rem;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.checkBoxFlex{
+    display: flex;
+    width: fit-content;
+    margin-top: 70px;
+}
+
+.newtoNetflix{
+    display: flex;
+    color: rgb(214, 210, 210);
+    margin: 15px 0px;
+}
+
+.signUpNow{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.signUpNow:hover{
+    color: rgb(170, 170, 170);
+    text-decoration: underline;
+    transition: all 0.5s;
+}
+
+.pageProtection{
+    color: rgb(145, 145, 145);
+    font-size: small;
+}
+.pageProtection2{
+    color: rgb(145, 145, 145);
+    font-size: small;
+}
+
+.learnMore{
+    color: rgb(0, 110, 255);
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 100px;
+    height: 229px;
+    background-color: rgba(0, 0, 0, 0.685);
+    color: white;
+}
+
+
+.questionsAre{
+    display: flex;
+}
+
+.flexMaking{
+    display: flex;
+}
+.flexMaking a{
+    width: 200px;
+    text-align: left;
+    color: rgb(192, 192, 192);
+}
+
+.flexMaking a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.bichKaBandar{
+    display: flex;
+    flex-direction: column;
+    padding: 60px 160px;
+    gap: 20px;
+}
+
+.boxHaiNew::before{
+    content: '';
+    width: 50px;
+    height: 50px;
+    border-top: 4px solid white;
+    border-radius: 50%;
+    position: absolute;
+    margin: 20% 48%;
+    z-index: 5;
+    animation-name: majehiMaje;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+}
+@keyframes majehiMaje {
+    0%{
+        rotate: 0deg;
+    }
+    10%{
+        rotate: 36deg;
+    }
+    20%{
+        rotate: 72deg;
+    }
+    30%{
+        rotate: 108deg;
+    }
+    40%{
+        rotate: 142deg;
+    }
+    50%{
+        rotate: 178deg;
+    }
+    60%{
+        rotate: 204deg;
+    }
+    70%{
+        rotate: 240deg;
+    }
+    80%{
+        rotate: 276deg;
+    }
+    90%{
+        rotate: 312deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+
+
+.boxHai{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.521);
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+}

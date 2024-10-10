@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gainsboro;
+    padding: 20px 35px;
+}
+.header img{
+    width: 170px;
+}
+.header a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.header a:hover{
+    text-decoration: underline 1px rgb(44, 44, 44);
+}
+
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    text-align: center;
+    z-index: 1;
+    /* display: none; */
+}
+
+.center img{
+    width: 250px;
+}
+.center p{
+    font-size: 0.9rem;
+    padding: 45px 0px 8px 0px;
+}
+
+.center h1{
+    padding-bottom: 10px;
+    font-weight: 600;
+    color: rgb(43, 39, 39);
+}
+
+.center h2{
+    padding-bottom: 20px;
+    font-weight: normal;
+    font-size: 1.1rem;
+}
+
+.center button{
+    width: 340px;
+    height: 60px;
+    font-size: 1.52rem;
+    border-radius: 4px;
+    background-color: #f6121d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.center button:hover{
+    background-color: #f73640;
+}
+
+.bottom {
+    background-color: rgb(243, 243, 243);
+    padding: 10px 60px 60px 60px;
+    margin-top: 200px;
+    color: rgb(115, 115, 115);
+}
+
+.flex a{
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    width: 250px;
+    font-size: 14px;
+    color: #737373;
+    font-weight: 500;
+}
+
+.bottom h1 {
+    font-size: 16px;
+    font-weight: normal;
+    padding: 20px 0px;
+}
+.bottom span {
+    font-size: 16px;
+    font-weight: normal;
+    cursor: pointer;
+    padding: 3px;
+}
+.bottom span:hover{
+    text-decoration: underline;
+}
+
+.flex a:hover{
+    text-decoration: underline;
+}
+
+.flex{
+    display: flex;
+    margin: 15px 0px;
+}
+
+.center2{
+    margin: 40px auto;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: left;  
+    justify-content: center;
+    width: 500px;
+    /* margin: auto; */
+    z-index: 3;
+    display: none;
+}
+
+.center2 h1{
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(48, 47, 47);
+}
+
+.center2 h6{
+    font-size: 1.2rem;
+    padding: 12px 0px;
+    font-weight: 400;
+    color: rgb(29, 27, 27);
+}
+
+.center2 button{
+    width: 470px;
+    height: 60px;
+    margin-top: 18px;
+    font-size: 1.52rem;
+    border-radius: 4px;
+    background-color: #f6121d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.center2 button:hover{
+    background-color: #b6030c;
+}
+
+#inputMail , #inputPassword{
+    position: relative;
+    width: 450px;
+    height: 50px;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-size: 1rem;
+    margin: 5px 0px;
+    border-radius: 4px;
+    border: 1px solid rgb(49, 49, 49);
+    background-color: transparent;
+}
+
+.flexes{
+    display: flex;
+    margin: auto;
+    width: 320px;
+    align-items: center;
+    padding: 10px 0px;
+}
+.flexes img{
+    width: 40px;
+    height: 40px;
+    padding: 0px 10px 10px 0px;
+}
+
+.center3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    display: none;
+}
+.center3 .flexes h1{
+    font-size: 19px;
+    font-family: Arial;
+    font-weight: 500;
+    color: rgb(48, 48, 48);
+}
+
+.center3 .checkMark{
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.center3 p{
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.center3 .chooseYourPlan{
+    font-size: 1.85rem;
+    font-weight: 600;
+    padding: 10px;
+    color: rgb(43, 42, 42);
+}
+
+.center3 #buttonNext{
+    width: 350px;
+    height: 60px;
+    margin-top: 18px;
+    font-size: 1.52rem;
+    border-radius: 4px;
+    background-color: #f6121d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.center3 #buttonNext:hover{
+    background-color: #b90710;
+}
+
+
+/* Animation for the Email */
+.makingClassAnimation{
+    position: absolute;
+    top: 189px;
+    left: 18px;
+}
+.makingClassAnimationforPassword{
+    position: absolute;
+    top: 263px;
+    left: 18px;
+    font-size: 17px;
+}
+
+.emailRequired{
+    display: flex;
+    align-items: center;
+    color: rgb(187, 4, 4);
+    padding-left: 5px;
+    display: none;
+    font-size: 14px;
+}
+.passwordRequired{
+    display: flex;
+    align-items: center;
+    color: rgb(187, 4, 4);
+    padding-left: 5px;
+    display: none;
+    font-size: 14px;
+}
+.passwordRequired img{
+    width: 20px;
+    padding-right: 5px;
+}
+.emailRequired img{
+    width: 20px;
+    padding-right: 5px;
+}
