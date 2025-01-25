@@ -2,6 +2,8 @@
 
 Welcome to my **Netflix Clone**! This project is a simple replica of Netflix's homepage, built entirely using **raw HTML**, **CSS**, and **JavaScript**. The design mimics Netflix's interface, offering a clean and engaging layout, perfect for anyone wanting to dive into building a frontend without using libraries or frameworks.
 
+Live:- https://premsharma1231.github.io/NetflixClone/
+
 ## 🌟 Features
 
 - **Responsive Design**: Optimized for all screen sizes — mobile, tablet, and desktop.
@@ -28,4 +30,4 @@ To get this project running on your local machine:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/NetflixClone.git
+   git clone https://github.com/premsharma1231/NetflixClone.git
